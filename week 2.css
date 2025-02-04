@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fa;
+    margin: 0;
+    padding: 0;
+  }
+ 
+  .container {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+ 
+  h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #333;
+  }
+ 
+  .task-form {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+ 
+  .task-form input, 
+  .task-form select {
+    padding: 8px;
+    width: 150px;
+  }
+ 
+  #addTaskButton {
+    padding: 8px 20px;
+    background-color:deepskyblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+ 
+  #addTaskButton:hover {
+    background-color:dodgerblue;
+  }
+ 
+  .task-list {
+    margin-top: 20px;
+  }
+ 
+  .task-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+ 
+  .task-list li {
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+  }
+ 
+  .task-list li .priority {
+    font-weight: bold;
+  }
+ 
+  .reminder {
+    margin-top: 20px;
+    text-align: center;
+  }
+ 
+  #sendRemindersButton {
+    padding: 10px 20px;
+    background-color:green;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+ 
+  #sendRemindersButton:hover {
+    background-color:darkgreen;
+  }
